@@ -83,7 +83,9 @@ Describe data ingestion and processing on Azure
 
 # Learning Path:
 
-[Azure Data Fundamentals: Explore core data concepts](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-core-data-concepts/)
-[Azure Data Fundamentals: Explore relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-relational-data/)
-[Azure Data Fundamentals: Explore non-relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-non-relational-data/)
-[Azure Data Fundamentals: Explore modern data warehouse analytics in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-data-warehouse-analytics/)
+| Course | Length | Notes |
+|-----|-----|----------|
+| [Azure Data Fundamentals: Explore core data concepts](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-core-data-concepts/) | 1 hr 39 min | identify and describe core data concepts such as relational, non-relational, big data, and analytics, and explore how this technology is implemented with Microsoft Azure. You will explore the roles, tasks, and responsibilities in the world of data |
+| [Azure Data Fundamentals: Explore relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-relational-data/) | 1 hr 27 min | explore relational data offerings, provisioning and deploying relational databases, and querying relational data through cloud data solutions with Microsoft Azure |
+| [Azure Data Fundamentals: Explore non-relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-non-relational-data/) | 2 hr 24 min | explore non-relational data offerings, provisioning and deploying non-relational databases, and non-relational data stores with Microsoft Azure |
+| [Azure Data Fundamentals: Explore modern data warehouse analytics in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-data-warehouse-analytics/)| 1 hr 51 min | explore the processing options available for building data analytics solutions in Azure. You will explore Azure Synapse Analytics, Azure Databricks, and Azure HDInsight |
