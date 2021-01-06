@@ -117,6 +117,10 @@ Describe data ingestion and processing on Azure
 | [Describe, diagnose, and predict with IoT Analytics](https://azure.microsoft.com/en-us/blog/answering-whats-happening-whys-happening-and-what-will-happen-with-iot-analytics/) | Describe data analytics core concepts | describe analytics techniques |
 | [Descriptive, predictive, and prescriptive analytics: How are they different?](https://www.zdnet.com/article/descriptive-predictive-and-prescriptive-analytics-how-are-they-different/) | Describe data analytics core concepts | describe analytics techniques |
 | [Explore data visualization](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/3-explore-data-visualization) | Describe data analytics core concepts | describe data visualization |
+| [Describe data ingestion and processing](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/2-describe-data-ingestion-process) | Describe data analytics core concepts | describe the concepts of data processing |
+| [Extract, transform, and load (ETL)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) | Describe data analytics core concepts | describe the concepts of data processing |
+
+
 
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/analytics.jpg" alt="Analytics"></p>
 <p align="center"></p>
