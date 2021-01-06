@@ -80,3 +80,10 @@ Describe data ingestion and processing on Azure
 * describe the role of interactive reports
 * describe the role of dashboards
 * describe the workflow in Power BI
+
+# Learning Path:
+
+[Azure Data Fundamentals: Explore core data concepts](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-core-data-concepts/)
+[Azure Data Fundamentals: Explore relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-relational-data/)
+[Azure Data Fundamentals: Explore non-relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-non-relational-data/)
+[Azure Data Fundamentals: Explore modern data warehouse analytics in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-data-warehouse-analytics/)
