@@ -92,7 +92,7 @@ Describe data ingestion and processing on Azure
 
 ## Describe core data concepts (15-20%):
 
-<p><img align="center" src="https://github.com/msandfor/ai-fundamentals/blob/main/assets/machine-learning-algorithm-cheat-sheet.svg" alt="Community photo"></p>
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/big-data-logical.svg" alt="Big Data Architecture"></p>
 <p align="center"></p>
 
 | Reference | Objective | Item |
