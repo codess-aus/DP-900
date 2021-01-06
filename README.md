@@ -123,7 +123,7 @@ Describe data ingestion and processing on Azure
 | [SSIS and Data Sources](https://social.technet.microsoft.com/wiki/contents/articles/1947.ssis-and-data-sources.aspx) |  |  |
 | [What is Azure Data Factory?](https://docs.microsoft.com/en-us/azure/data-factory/introduction) |  |  |
 | [Copy activity in Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview) |  |  |
-| []() |  |  |
+| [Find the analytics product you need](https://azure.microsoft.com/en-us/product-categories/analytics/) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
@@ -142,5 +142,5 @@ Describe data ingestion and processing on Azure
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/2-data-process.png" alt="Data Processing"></p>
 <p align="center"></p>
 
-<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/2-data-process.png" alt="Data Processing"></p>
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/copy-activity.png" alt="Data Factory"></p>
 <p align="center"></p>
