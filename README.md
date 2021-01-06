@@ -106,6 +106,9 @@ Describe data ingestion and processing on Azure
 | [Relational vs. NoSQL data](https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data) | types of core data workloads | describe the characteristics of relational data |
 | [Relational Data Model](https://binaryterms.com/relational-data-model.html) | types of core data workloads | describe the characteristics of relational data |
 | [Big data architecture style](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data) | types of core data workloads | describe the characteristics of relational data |
+| [Identify types of data and data storage](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/3-identify-types-storage) | types of core data workloads | describe the characteristics of relational data |
+| [Description of the database normalization basics](https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description) | types of core data workloads | describe the characteristics of relational data |
+| [Clustered and Nonclustered Indexes Described](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15) | types of core data workloads | describe the characteristics of relational data |
 
 
 
