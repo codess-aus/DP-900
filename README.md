@@ -101,6 +101,7 @@ Describe data ingestion and processing on Azure
 | [Choosing a batch processing technology in Azure](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing) | types of core data workloads | describe the difference between batch and streaming data |
 | [Choosing a stream processing technology in Azure](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/stream-processing) | types of core data workloads | describe the difference between batch and streaming data |
 | [Real Time vs Batch Processing vs Stream Processing](https://www.bmc.com/blogs/batch-processing-stream-processing-real-time/) | types of core data workloads | describe the difference between batch and streaming data |
+| [Big Data Battle : Batch Processing vs Stream Processing](https://medium.com/@gowthamy/big-data-battle-batch-processing-vs-stream-processing-5d94600d8103) | types of core data workloads | describe the difference between batch and streaming data |
 | [What Is Data Consistency?](https://www.easytechjunkie.com/what-is-data-consistency.htm) | types of core data workloads | describe the difference between batch and streaming data |
 | [Explore the characteristics of relational data](https://docs.microsoft.com/en-us/learn/modules/describe-concepts-of-relational-data/2-explore-characteristics) | types of core data workloads | describe the characteristics of relational data |
 | [Relational vs. NoSQL data](https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data) | types of core data workloads | describe the characteristics of relational data |
@@ -109,8 +110,11 @@ Describe data ingestion and processing on Azure
 | [Identify types of data and data storage](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/3-identify-types-storage) | types of core data workloads | describe the characteristics of relational data |
 | [Description of the database normalization basics](https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description) | types of core data workloads | describe the characteristics of relational data |
 | [Clustered and Nonclustered Indexes Described](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15) | types of core data workloads | describe the characteristics of relational data |
-
-
+| [Explore the characteristics of relational data](https://docs.microsoft.com/en-us/learn/modules/describe-concepts-of-relational-data/2-explore-characteristics) | types of core data workloads | describe the characteristics of relational data |
+| [Understand data store models](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview) | types of core data workloads | describe the characteristics of relational data |
+| [Databases](https://docs.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver15) | types of core data workloads | describe the characteristics of relational data |
+| []() | types of core data workloads | describe the characteristics of relational data |
+| []() | types of core data workloads | describe the characteristics of relational data |
 
 
 
