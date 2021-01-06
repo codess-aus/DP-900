@@ -119,7 +119,20 @@ Describe data ingestion and processing on Azure
 | [Explore data visualization](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/3-explore-data-visualization) | Describe data analytics core concepts | describe data visualization |
 | [Describe data ingestion and processing](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/2-describe-data-ingestion-process) | Describe data analytics core concepts | describe the concepts of data processing |
 | [Extract, transform, and load (ETL)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) | Describe data analytics core concepts | describe the concepts of data processing |
-
+| [SQL Server Integration Services](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver15) |  |  |
+| [SSIS and Data Sources](https://social.technet.microsoft.com/wiki/contents/articles/1947.ssis-and-data-sources.aspx) |  |  |
+| [What is Azure Data Factory?](https://docs.microsoft.com/en-us/azure/data-factory/introduction) |  |  |
+| [Copy activity in Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview) |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
 
 
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/analytics.jpg" alt="Analytics"></p>
@@ -129,4 +142,5 @@ Describe data ingestion and processing on Azure
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/2-data-process.png" alt="Data Processing"></p>
 <p align="center"></p>
 
-
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/2-data-process.png" alt="Data Processing"></p>
+<p align="center"></p>
