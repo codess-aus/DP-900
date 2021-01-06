@@ -89,3 +89,57 @@ Describe data ingestion and processing on Azure
 | [Azure Data Fundamentals: Explore relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-relational-data/) | 1 hr 27 min | explore relational data offerings, provisioning and deploying relational databases, and querying relational data through cloud data solutions with Microsoft Azure |
 | [Azure Data Fundamentals: Explore non-relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-non-relational-data/) | 2 hr 24 min | explore non-relational data offerings, provisioning and deploying non-relational databases, and non-relational data stores with Microsoft Azure |
 | [Azure Data Fundamentals: Explore modern data warehouse analytics in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-data-warehouse-analytics/)| 1 hr 51 min | explore the processing options available for building data analytics solutions in Azure. You will explore Azure Synapse Analytics, Azure Databricks, and Azure HDInsight |
+
+
+
+## Describe core data concepts (15-20%)
+### Describe types of core data workloads
+* describe batch data
+* describe streaming data
+* describe the difference between batch and streaming data
+* describe the characteristics of relational data
+
+### Describe data analytics core concepts
+* describe data visualization (e.g., visualization, reporting, business intelligence (BI))
+* describe basic chart types such as bar charts and pie charts
+* describe analytics techniques (e.g., descriptive, diagnostic, predictive, prescriptive, cognitive)
+* describe ELT and ETL processing
+* describe the concepts of data processing
+
+## Describe how to work with relational data on Azure (25-30%)
+### Describe relational data workloads
+* identify the right data offering for a relational workload
+* describe relational data structures (e.g., tables, index, views)
+
+### Describe relational Azure data services
+* describe and compare PaaS, IaaS, and SaaS solutions
+* describe Azure SQL database services including Azure SQL Database, Azure SQL
+
+### Managed Instance, and SQL Server on Azure Virtual Machine
+* describe Azure Synapse Analytics
+* describe Azure Database for PostgreSQL, Azure Database for MariaDB, and Azure Database for MySQL
+
+### Identify basic management tasks for relational data
+* describe provisioning and deployment of relational data services
+* describe method for deployment including the Azure portal, Azure Resource Manager templates, Azure PowerShell, and the Azure command-line interface (CLI)
+* identify data security components (e.g., firewall, authentication)
+* identify basic connectivity issues (e.g., accessing from on-premises, access with Azure VNets, access from Internet, authentication, firewalls)
+* identify query tools (e.g., Azure Data Studio, SQL Server Management Studio, sqlcmd
+utility, etc.)
+Describe query techniques for data using SQL language
+* compare Data Definition Language (DDL) versus Data Manipulation Language (DML)
+* query relational data in Azure SQL Database, Azure Database for PostgreSQL, and Azure Database for MySQL
+
+| Course | Objective | Item |
+|-----|-----|-----|
+| [Describe the difference between batch and streaming data](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/4-describe-difference) | types of core data workloads | describe the difference between batch and streaming data |
+| [Choosing a batch processing technology in Azure](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing) | types of core data workloads | describe the difference between batch and streaming data |
+| [Choosing a stream processing technology in Azure](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/stream-processing) | types of core data workloads | describe the difference between batch and streaming data |
+| [Real Time vs Batch Processing vs Stream Processing](https://www.bmc.com/blogs/batch-processing-stream-processing-real-time/) | types of core data workloads | describe the difference between batch and streaming data |
+
+
+
+
+
+
+
