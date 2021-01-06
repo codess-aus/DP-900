@@ -92,12 +92,21 @@ Describe data ingestion and processing on Azure
 
 ## Describe core data concepts (15-20%):
 
+<p><img align="center" src="https://github.com/msandfor/ai-fundamentals/blob/main/assets/machine-learning-algorithm-cheat-sheet.svg" alt="Community photo"></p>
+<p align="center"></p>
+
 | Reference | Objective | Item |
 |-----|-----|-----|
 | [Describe the difference between batch and streaming data](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/4-describe-difference) | types of core data workloads | describe the difference between batch and streaming data |
 | [Choosing a batch processing technology in Azure](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing) | types of core data workloads | describe the difference between batch and streaming data |
 | [Choosing a stream processing technology in Azure](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/stream-processing) | types of core data workloads | describe the difference between batch and streaming data |
 | [Real Time vs Batch Processing vs Stream Processing](https://www.bmc.com/blogs/batch-processing-stream-processing-real-time/) | types of core data workloads | describe the difference between batch and streaming data |
+| [What Is Data Consistency?](https://www.easytechjunkie.com/what-is-data-consistency.htm) | types of core data workloads | describe the difference between batch and streaming data |
+| [Explore the characteristics of relational data](https://docs.microsoft.com/en-us/learn/modules/describe-concepts-of-relational-data/2-explore-characteristics) | types of core data workloads | describe the characteristics of relational data |
+| [Relational vs. NoSQL data](https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data) | types of core data workloads | describe the characteristics of relational data |
+| [Relational Data Model](https://binaryterms.com/relational-data-model.html) | types of core data workloads | describe the characteristics of relational data |
+| [Big data architecture style](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data) | types of core data workloads | describe the characteristics of relational data |
+
 
 
 
