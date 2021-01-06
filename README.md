@@ -126,4 +126,7 @@ Describe data ingestion and processing on Azure
 <p align="center"></p>
 
 
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/2-data-process.png" alt="Data Processing"></p>
+<p align="center"></p>
+
 
