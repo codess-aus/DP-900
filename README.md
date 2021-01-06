@@ -113,11 +113,13 @@ Describe data ingestion and processing on Azure
 | [Explore the characteristics of relational data](https://docs.microsoft.com/en-us/learn/modules/describe-concepts-of-relational-data/2-explore-characteristics) | types of core data workloads | describe the characteristics of relational data |
 | [Understand data store models](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview) | types of core data workloads | describe the characteristics of relational data |
 | [Databases](https://docs.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver15) | types of core data workloads | describe the characteristics of relational data |
-| []() | types of core data workloads | describe the characteristics of relational data |
-| []() | types of core data workloads | describe the characteristics of relational data |
+| [Explore data analytics](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/4-explore) | Describe data analytics core concepts | describe analytics techniques |
+| [Describe, diagnose, and predict with IoT Analytics](https://azure.microsoft.com/en-us/blog/answering-whats-happening-whys-happening-and-what-will-happen-with-iot-analytics/) | Describe data analytics core concepts | describe analytics techniques |
+| [Descriptive, predictive, and prescriptive analytics: How are they different?](https://www.zdnet.com/article/descriptive-predictive-and-prescriptive-analytics-how-are-they-different/) | Describe data analytics core concepts | describe analytics techniques |
+| [Explore data visualization](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/3-explore-data-visualization) | Describe data analytics core concepts | describe data visualization |
 
-
-
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/analytics.jpg" alt="Analytics"></p>
+<p align="center"></p>
 
 
 
