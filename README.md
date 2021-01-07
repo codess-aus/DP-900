@@ -130,10 +130,17 @@ Describe data ingestion and processing on Azure
 | [What is dedicated SQL pool (formerly SQL DW) in Azure Synapse Analytics?](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is) |  |  |
 | [FOUR TYPES OF BUSINESS ANALYTICS TO KNOW](https://www.analyticsinsight.net/four-types-of-business-analytics-to-know/) |  |  |
 | [Explore data analytics](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/4-explore) |  |  |
+| [Explore data visualization](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/3-explore-data-visualization) |  |  |
+| [Visualization types in Power BI](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a) |  |  |
+| [Tips and tricks for creating reports in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-tips-and-tricks-for-creating-reports) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
-
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
 
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/analytics.jpg" alt="Analytics"></p>
 <p align="center"></p>
@@ -143,4 +150,7 @@ Describe data ingestion and processing on Azure
 <p align="center"></p>
 
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/copy-activity.png" alt="Data Factory"></p>
+<p align="center"></p>
+
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/four-types-business-analytics.png" alt="4 types of business analytics"></p>
 <p align="center"></p>
