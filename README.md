@@ -128,8 +128,8 @@ Describe data ingestion and processing on Azure
 | [Introduction to Azure Data Lake Storage Gen2](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) |  |  |
 | [What is Azure SQL Database?](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview) |  |  |
 | [What is dedicated SQL pool (formerly SQL DW) in Azure Synapse Analytics?](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is) |  |  |
-| []() |  |  |
-| []() |  |  |
+| [FOUR TYPES OF BUSINESS ANALYTICS TO KNOW](https://www.analyticsinsight.net/four-types-of-business-analytics-to-know/) |  |  |
+| [Explore data analytics](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/4-explore) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
