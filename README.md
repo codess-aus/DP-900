@@ -137,10 +137,6 @@ Describe data ingestion and processing on Azure
 | [Features of the key influencers visual](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers) |  |  |
 | [Scatter charts, bubble charts, and dot plot charts in Power BI](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-scatter) |  |  |
 | [Overview of data analysis](https://docs.microsoft.com/en-us/learn/modules/data-analytics-microsoft/2-data-analysis) |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
 
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/analytics.jpg" alt="Analytics"></p>
 <p align="center"></p>
@@ -155,3 +151,12 @@ Describe data ingestion and processing on Azure
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/copy-activity.png" alt="Data Factory"></p>
 <p align="center"></p>
 
+
+## Describe how to work with relational data on Azure (25-30%)
+
+| Reference | Objective | Item |
+|-----|-----|-----|
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
