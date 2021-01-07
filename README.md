@@ -124,10 +124,10 @@ Describe data ingestion and processing on Azure
 | [What is Azure Data Factory?](https://docs.microsoft.com/en-us/azure/data-factory/introduction) |  |  |
 | [Copy activity in Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview) |  |  |
 | [Find the analytics product you need](https://azure.microsoft.com/en-us/product-categories/analytics/) |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
+| [Load data into Azure Data Lake Storage Gen2 with Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/load-azure-data-lake-storage-gen2) |  |  |
+| [Introduction to Azure Data Lake Storage Gen2](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) |  |  |
+| [What is Azure SQL Database?](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview) |  |  |
+| [What is dedicated SQL pool (formerly SQL DW) in Azure Synapse Analytics?](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
