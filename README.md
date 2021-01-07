@@ -133,16 +133,19 @@ Describe data ingestion and processing on Azure
 | [Explore data visualization](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-data-analytics/3-explore-data-visualization) |  |  |
 | [Visualization types in Power BI](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a) |  |  |
 | [Tips and tricks for creating reports in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-tips-and-tricks-for-creating-reports) |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
+| [Visual types in Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-visual-type) |  |  |
+| [Features of the key influencers visual](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers) |  |  |
+| [Scatter charts, bubble charts, and dot plot charts in Power BI](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-scatter) |  |  |
+| [Overview of data analysis](https://docs.microsoft.com/en-us/learn/modules/data-analytics-microsoft/2-data-analysis) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
 
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/analytics.jpg" alt="Analytics"></p>
+<p align="center"></p>
+
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/four-types-business-analytics.png" alt="4 types of business analytics"></p>
 <p align="center"></p>
 
 
@@ -152,5 +155,3 @@ Describe data ingestion and processing on Azure
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/copy-activity.png" alt="Data Factory"></p>
 <p align="center"></p>
 
-<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/four-types-business-analytics.png" alt="4 types of business analytics"></p>
-<p align="center"></p>
