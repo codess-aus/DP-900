@@ -176,6 +176,13 @@ Describe data ingestion and processing on Azure
 | [](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview) |  |  |
 | [SQL Server on Azure virtual machines](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/3-sql-server-azure-virtual-machines) |  |  |
 | [Explore relational Azure data services](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/2-azure-data-services) |  |  |
+| [Features comparison: Azure SQL Database and Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison) |  |  |
+| [What is Azure SQL Managed Instance?](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview) |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
