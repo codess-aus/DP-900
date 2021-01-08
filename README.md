@@ -197,9 +197,9 @@ Describe data ingestion and processing on Azure
 | [Transparent data encryption for SQL Database, SQL Managed Instance, and Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=sql-server-ver15&tabs=azure-portal) |  |  |
 | [What is Azure Data Studio?](https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15) |  |  |
 | [Quickstart: Use Azure Data Studio to connect and query Azure SQL database](https://docs.microsoft.com/en-us/sql/azure-data-studio/quickstart-sql-database?view=sql-server-ver15) |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
+| [Quickstart: Use Azure Data Studio to connect and query PostgreSQL](https://docs.microsoft.com/en-us/sql/azure-data-studio/quickstart-postgres?view=sql-server-ver15) |  |  |
+| [Connect to Synapse SQL with SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/get-started-ssms) |  |  |
+| [Quickstart: Azure Database for MariaDB: Use MySQL Workbench to connect and query data](https://docs.microsoft.com/en-us/azure/mariadb/connect-workbench) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
