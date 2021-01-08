@@ -211,15 +211,19 @@ Describe data ingestion and processing on Azure
 | [SQL Server Data Tools](https://docs.microsoft.com/en-us/sql/ssdt/sql-server-data-tools?view=sql-server-ver15) |  |  |
 | [Using multi-factor Azure Active Directory authentication](https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-mfa-ssms-overview) |  |  |
 | [Configure multi-factor authentication for SQL Server Management Studio and Azure AD](https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-mfa-ssms-configure) |  |  |
+| [Describe provisioning relational data services](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-relational-database-offerings-azure/2-describe-provision-relational-data-services) |  |  |
+| [What are ARM templates?](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview) |  |  |
+| [Describe configuring relational data services](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-relational-database-offerings-azure/5-configure-relational-data-services) |  |  |
+| [Describe configuring Azure SQL Database, Azure Database for PostgreSQL, and Azure Database for MySQL](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-relational-database-offerings-azure/6-configure-sql-database-mysql-postgresql) |  |  |
+| [Configure the Windows Firewall to Allow SQL Server Access](https://docs.microsoft.com/en-us/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-ver15) |  |  |
+| [UPDATE - SQL Command](https://docs.microsoft.com/en-us/sql/odbc/microsoft/update-sql-command?view=sql-server-ver15) |  |  |
+| [SQL Server commands - DML, DDL, DCL, TCL](https://social.technet.microsoft.com/wiki/contents/articles/34477.sql-server-commands-dml-ddl-dcl-tcl.aspx) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
-| []() |  |  |
-| []() |  |  |
-
 
 The following two applications are best suited to batch processing: 
 Employee payroll processing and generating payroll checks 
