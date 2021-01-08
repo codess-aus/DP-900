@@ -200,12 +200,17 @@ Describe data ingestion and processing on Azure
 | [Quickstart: Use Azure Data Studio to connect and query PostgreSQL](https://docs.microsoft.com/en-us/sql/azure-data-studio/quickstart-postgres?view=sql-server-ver15) |  |  |
 | [Connect to Synapse SQL with SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/get-started-ssms) |  |  |
 | [Quickstart: Azure Database for MariaDB: Use MySQL Workbench to connect and query data](https://docs.microsoft.com/en-us/azure/mariadb/connect-workbench) |  |  |
+| [Quickstart: Create a server-level firewall rule using the Azure portal](https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-create-server-level-portal-quickstart) |  |  |
+| [What is Azure role-based access control (Azure RBAC)?](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) |  |  |
+| [Manage storage account access keys](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal) |  |  |
+| [Use Azure Active Directory authentication](https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-overview) |  |  |
+| [Microsoft identity platform access tokens](https://docs.microsoft.com/en-us/azure/active-directory/develop/access-tokens) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
-
+| []() |  |  |
 
 The following two applications are best suited to batch processing: 
 Employee payroll processing and generating payroll checks 
