@@ -156,7 +156,44 @@ Describe data ingestion and processing on Azure
 
 | Reference | Objective | Item |
 |-----|-----|-----|
+| [Clustered and Nonclustered Indexes Described](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15) |  |  |
+| [Primary and Foreign Key Constraints](https://docs.microsoft.com/en-us/sql/relational-databases/tables/primary-and-foreign-key-constraints?view=sql-server-ver15&viewFallbackFrom=sql-server-ver1) |  |  |
+| [Views](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-ver15) |  |  |
+| [Understand data store models](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview) |  |  |
+| [What is Azure Table storage ?](https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview) |  |  |
+| [Explore relational data structures](https://docs.microsoft.com/en-us/learn/modules/describe-concepts-of-relational-data/3-explore-structures) |  |  |
+| [Heaps (Tables without Clustered Indexes)](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/heaps-tables-without-clustered-indexes?view=sql-server-ver15) |  |  |
+| [Explore the characteristics of relational data](https://docs.microsoft.com/en-us/learn/modules/describe-concepts-of-relational-data/2-explore-characteristics) |  |  |
+| [Identify types of data and data storage](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/3-identify-types-storage) |  |  |
+| [Relational vs. NoSQL data](https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data) |  |  |
+| [Describe types of non-relational and NoSQL databases](https://docs.microsoft.com/en-us/learn/modules/explore-concepts-of-non-relational-data/4-describe-types-nosql-databases) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+
+The following two applications are best suited to batch processing: 
+Employee payroll processing and generating payroll checks 
+• Setting inventory stocking levels based on seasonal sales volume 
+Data for batch processing is collected over time, often from different data sources, and it is processed as a 
+dataset that includes a range of rows or all rows in the dataset. Batch processing is designed to handle 
+processing of large datasets. There is typically a long latency between data collection and data processing. 
+The following two applications are best suited to stream processing: 
+• Reporting the number of users and bandwidth user for an online game 
+• Identifying detected manufacturing errors to automatically reject failing parts 
+Stream processing is designed for real-time or near real-time data processing, often as a data load process 
+with minimal processing. Data must be able to stream out as quickly as it streams in for processing. Data is 
+either processed as it is generated or in micro-batches of a very few rows with latency of no more than a 
+few milliseconds. 
