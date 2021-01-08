@@ -191,10 +191,10 @@ Describe data ingestion and processing on Azure
 | [Use Azure SQL Managed Instance securely with public endpoints](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/public-endpoint-overview) |  |  |
 | [Quickstart: Configure a point-to-site connection to Azure SQL Managed Instance from on-premises](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/point-to-site-p2s-configure) |  |  |
 | [Tutorial: Secure a database in Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/secure-database-tutorial) |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
+| [Azure SQL Database and Azure SQL Managed Instance connect and query articles](https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-content-reference-guide) |  |  |
+| [Configure Always Encrypted by using Azure Key Vault](https://docs.microsoft.com/en-us/azure/azure-sql/database/always-encrypted-azure-key-vault-configure?tabs=azure-powershell) |  |  |
+| [Dynamic Data Masking](https://docs.microsoft.com/en-us/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15) |  |  |
+| [Transparent data encryption for SQL Database, SQL Managed Instance, and Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=sql-server-ver15&tabs=azure-portal) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
