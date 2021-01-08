@@ -171,11 +171,11 @@ Describe data ingestion and processing on Azure
 | [Azure SQL Database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/4-azure-sql-database) |  |  |
 | [Explore Azure Synapse Analytics](https://docs.microsoft.com/en-us/learn/modules/explore-data-storage-processing-azure/3-explore-azure-synapse-analytics) |  |  |
 | [Explore Azure Cosmos DB](https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/5-explore-azure-cosmos-database) |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
+| [What is SQL Server on Azure Virtual Machines (Windows)](https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview) |  |  |
+| [What is Azure SQL Database?](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview) |  |  |
+| [](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview) |  |  |
+| [SQL Server on Azure virtual machines](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/3-sql-server-azure-virtual-machines) |  |  |
+| [Explore relational Azure data services](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/2-azure-data-services) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
