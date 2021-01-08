@@ -178,10 +178,10 @@ Describe data ingestion and processing on Azure
 | [Explore relational Azure data services](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/2-azure-data-services) |  |  |
 | [Features comparison: Azure SQL Database and Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison) |  |  |
 | [What is Azure SQL Managed Instance?](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview) |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
-| []() |  |  |
+| [What is Azure Database for PostgreSQL?](https://docs.microsoft.com/en-us/azure/postgresql/overview) |  |  |
+| [Configure TLS connectivity in Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) |  |  |
+| [Configure TLS in Azure Database for PostgreSQL - Hyperscale (Citus)](https://docs.microsoft.com/en-us/azure/postgresql/concepts-hyperscale-ssl-connection-security) |  |  |
+| [Use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/concepts-aad-authentication) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
