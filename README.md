@@ -173,7 +173,6 @@ Describe data ingestion and processing on Azure
 | [Explore Azure Cosmos DB](https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/5-explore-azure-cosmos-database) |  |  |
 | [What is SQL Server on Azure Virtual Machines (Windows)](https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview) |  |  |
 | [What is Azure SQL Database?](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview) |  |  |
-| [](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview) |  |  |
 | [SQL Server on Azure virtual machines](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/3-sql-server-azure-virtual-machines) |  |  |
 | [Explore relational Azure data services](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/2-azure-data-services) |  |  |
 | [Features comparison: Azure SQL Database and Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison) |  |  |
@@ -182,6 +181,16 @@ Describe data ingestion and processing on Azure
 | [Configure TLS connectivity in Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/en-us/azure/postgresql/concepts-ssl-connection-security) |  |  |
 | [Configure TLS in Azure Database for PostgreSQL - Hyperscale (Citus)](https://docs.microsoft.com/en-us/azure/postgresql/concepts-hyperscale-ssl-connection-security) |  |  |
 | [Use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/concepts-aad-authentication) |  |  |
+| [Dedicated SQL pool (formerly SQL DW) architecture in Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture) |  |  |
+| [What is SaaS?](https://azure.microsoft.com/en-us/overview/what-is-saas/) |  |  |
+| [SQL Server database migration to Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/migrate-to-database-from-sql-server) |  |  |
+| [Azure SQL Database Managed Instance](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/5-azure-sql-database-managed-instance) |  |  |
+| [PostgreSQL, MariaDB, and MySQL](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings/6-postgresql-mariadb-mysql) |  |  |
+| [What is Azure SQL?](https://docs.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) |  |  |
+| [Connectivity architecture for Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/connectivity-architecture-overview) |  |  |
+| [Use Azure SQL Managed Instance securely with public endpoints](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/public-endpoint-overview) |  |  |
+| [Quickstart: Configure a point-to-site connection to Azure SQL Managed Instance from on-premises](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/point-to-site-p2s-configure) |  |  |
+| [Tutorial: Secure a database in Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/secure-database-tutorial) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
@@ -190,6 +199,13 @@ Describe data ingestion and processing on Azure
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+
 
 The following two applications are best suited to batch processing: 
 Employee payroll processing and generating payroll checks 
