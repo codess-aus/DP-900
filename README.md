@@ -218,6 +218,30 @@ Describe data ingestion and processing on Azure
 | [Configure the Windows Firewall to Allow SQL Server Access](https://docs.microsoft.com/en-us/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-ver15) |  |  |
 | [UPDATE - SQL Command](https://docs.microsoft.com/en-us/sql/odbc/microsoft/update-sql-command?view=sql-server-ver15) |  |  |
 | [SQL Server commands - DML, DDL, DCL, TCL](https://social.technet.microsoft.com/wiki/contents/articles/34477.sql-server-commands-dml-ddl-dcl-tcl.aspx) |  |  |
+| [Transact-SQL statements](https://docs.microsoft.com/en-us/sql/t-sql/statements/statements?view=sql-server-ver15) |  |  |
+| [DROP TABLE Command](https://docs.microsoft.com/en-us/sql/odbc/microsoft/drop-table-command?view=sql-server-ver15) |  |  |
+| [Query Azure Cosmos DB](https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-stores-azure/3-query-azure-cosmos-db) |  |  |
+| [CREATE VIEW (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-view-transact-sql?view=sql-server-ver15) |  |  |
+| [SELECT Clause (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/queries/select-clause-transact-sql?view=sql-server-ver15) |  |  |
+| [SELECT - GROUP BY- Transact-SQL](https://docs.microsoft.com/en-us/sql/t-sql/queries/select-group-by-transact-sql?view=sql-server-ver15) |  |  |
+| [UPDATE (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/queries/update-transact-sql?view=sql-server-ver15) |  |  |
+| [TRUNCATE TABLE (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/statements/truncate-table-transact-sql?view=sql-server-ver15) |  |  |
+| [INSERT (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/statements/insert-transact-sql?view=sql-server-ver15) |  |  |
+| [CREATE TABLE (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15) |  |  |
+| [SUM (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/functions/sum-transact-sql?view=sql-server-ver15) |  |  |
+| [AVG (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/functions/avg-transact-sql?view=sql-server-ver15) |  |  |
+| [Query relational data in Azure Database for PostgreSQL](https://docs.microsoft.com/en-us/learn/modules/query-relational-data/4-azure-database-for-postgresql) |  |  |
+| [sqlcmd Utility](https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-ver15) |  |  |
+| [az postgres](https://docs.microsoft.com/en-us/cli/azure/postgres?view=azure-cli-latest) |  |  |
+| [Introduction to SQL](https://docs.microsoft.com/en-us/learn/modules/query-relational-data/2-introduction-to-sql) |  |  |
+| [Transact-SQL statements](https://docs.microsoft.com/en-us/sql/t-sql/statements/statements?view=sql-server-ver15) |  |  |
+| [DDL, DML, DCL and TCL Commands in Sql Server](https://www.c-sharpcorner.com/blogs/ddl-dml-dcl-and-tcl-commands-in-sql-server1) |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
