@@ -242,8 +242,8 @@ Describe data ingestion and processing on Azure
 | Course | Length | Notes |
 |-----|-----|----------|
 | [Understand data store models](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview) |  |  |
-| []() |  |  |
-| []() |  |  |
+| [Non-relational data and NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data) |  |  |
+| [Identify the need for data solutions](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/2-identify-need-data-solutions) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
