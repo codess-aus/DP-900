@@ -236,6 +236,23 @@ Describe data ingestion and processing on Azure
 | [Introduction to SQL](https://docs.microsoft.com/en-us/learn/modules/query-relational-data/2-introduction-to-sql) |  |  |
 | [Transact-SQL statements](https://docs.microsoft.com/en-us/sql/t-sql/statements/statements?view=sql-server-ver15) |  |  |
 | [DDL, DML, DCL and TCL Commands in Sql Server](https://www.c-sharpcorner.com/blogs/ddl-dml-dcl-and-tcl-commands-in-sql-server1) |  |  |
+
+
+## Describe how to work with non-relational data on Azure (25-30%)
+| Course | Length | Notes |
+|-----|-----|----------|
+| [Understand data store models](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview) |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
