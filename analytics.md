@@ -88,3 +88,16 @@ The most appropriate use case for **Power Bl** is to create dashboards and data 
 The most appropriate use case for **Azure Data Lake Storage** is to store massive amounts of unstructured data in a hierarchical structure.
 
 The most appropriate use case for Azure SQL Database is to serve as data storage for online transactional processing (OLTP) workloads.
+
+**Azure HDlnsight** is a big data processing service used to provision and manage a cluster of open-source analytics solutions such as Apache Spark, Hadoop, and Kafka.
+
+**Azure Databricks** is a complete platform for big data processing, streaming, and machine learning optimized for the Microsoft Azure cloud services platform and built on top of Apache Spark.
+* Azure Databricks can process batch and streaming processing workloads. You can also perform real-time data processing and event streaming from Azure Event Hubs with Azure Databricks.
+* Azure Databricks provides an interactive workspace for exploration and data visualization.
+* Azure Databricks provides a workspace for collaboration between data scientists, data engineers, and business analysts.
+* You can run notebooks in R, Python, Scala, or SQL, and interact with the data very quickly.
+
+
+
+**Azure Analysis Services** is a service used to build multidimensional or tabular models used by online analytical processing (OLAP) queries. You can combine data from multiple sources, like Azure Synapse Analytics, Azure Data Lake Store, Azure Cosmos DB, and others to build the tabular models.
+
