@@ -89,6 +89,8 @@ Describe data ingestion and processing on Azure
 | [Azure Data Fundamentals: Explore relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-relational-data/) | 1 hr 27 min | explore relational data offerings, provisioning and deploying relational databases, and querying relational data through cloud data solutions with Microsoft Azure |
 | [Azure Data Fundamentals: Explore non-relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-non-relational-data/) | 2 hr 24 min | explore non-relational data offerings, provisioning and deploying non-relational databases, and non-relational data stores with Microsoft Azure |
 | [Azure Data Fundamentals: Explore modern data warehouse analytics in Azure](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-data-warehouse-analytics/)| 1 hr 51 min | explore the processing options available for building data analytics solutions in Azure. You will explore Azure Synapse Analytics, Azure Databricks, and Azure HDInsight |
+| [A Guide to Cloud - Summary Learning Path Videos](https://www.youtube.com/playlist?list=PLhLKc18P9YODENOj4F2nHbNXeYwY1zYGb) | 20 videos | If you complete the Learning Path and then watch these video's you should be confident to pass the Data Fundamentals Exam |
+
 
 ## Describe core data concepts (15-20%):
 
