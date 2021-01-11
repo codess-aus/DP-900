@@ -271,7 +271,7 @@ Describe data ingestion and processing on Azure
 |-----|-----|----------|
 | [Online analytical processing (OLAP)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-analytical-processing) |  |  |
 | [Online transaction processing (OLTP)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing) |  |  |
-| []() |  |  |
+| [Describe the difference between batch and streaming data](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/4-describe-difference) |  |  |
 | []() |  |  |
 | []() |  |  |
 

@@ -66,3 +66,6 @@ Fact tables store observations or events, and can be sales orders, stock balance
 Generally, dimension tables contain a relatively small number of rows. Fact tables, on the other hand, can contain a very large number of rows and continue to grow over time.
 
 A **snowflake** dimension is a set of normalized tables for a single business entity. For example, Adventure Works classifies products by category and subcategory. Categories are assigned to subcategories, and products are in turn assigned to subcategories. In the Adventure Works relational data warehouse, the product dimension is normalized and stored in three related tables: DimProductCategory, DimProductSubcategory, and DimProduct.
+
+Processing data as it arrives is called streaming. Buffering and processing the data in groups is called batch processing.
+
