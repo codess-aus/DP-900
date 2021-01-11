@@ -37,13 +37,19 @@ Data warehousing lets you consolidate data from multiple sources for analysis an
 * An application to process hundreds of user purchases per minute, including updates to inventory on hand, is an example of an OLTP workload. 
 * OLTP applications are optimized for write operations and entering and updating data across multiple, related tables. Partial changes made to data are rolled back automatically if a transaction is not completed, so that no transaction is left in a partially completed state.
 * An application to support warehouse sales and shipping for physical warehouses and multiple international locations is an example of an OLTP application. 
-* OLTP transactions can be distributed geographically and supported by one or more relational database. This scenario requires a solution that supports consistent and reliable data writes. 
-
+* OLTP transactions can be distributed geographically and supported by one or more relational database. This scenario requires a solution that supports consistent and reliable data writes.
+OLTP is used for transactional workloads, such as:
+* Performing e-commerce transactions
+* Tracking inventory management systems
 
 **OLAP**
 An application to perform data mining on historic data collected from multiple relational and non-relational sources is an example of an OLAP workload.
 * OLAP applications often manipulate data based on complex queries. Data mining queries are complex multidimensional queries that are designed to discover insights from the data that are not immediately apparent.
 * An application to provide loosely normalized data to support report generation is an example of an OLAP workload. Companies will often maintain live data for transactional processing and a separate copy of historic data for analysis and report generation. This prevents analytic processing from interfering with the performance during transactional processing.
+* Online analytical processing (OLAP) systems are designed to perform complex analysis and provide business intelligence. 
+OLAP is used for analytical workloads, such as:
+* Generating complex ad-hoc reports that include several aggregations 
+* Performing big data analysis on NoSQL database Online transaction processing (OLTP) systems are designed to perform business transactions as they occur.
  
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/star-schema-example1.png" alt="Star Schema"></p>
 <p align="center"></p>
