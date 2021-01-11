@@ -91,7 +91,13 @@ The most appropriate use case for **Power Bl** is to create dashboards and data 
 Power BI visualizes data. You can build interactive reports and dashboards with Power Bl, allowing business users to analyze this data and deliver insights throughout your organization.
 
 The most appropriate use case for **Azure Data Lake Storage** is to store massive amounts of unstructured data in a hierarchical structure.
-Azure Data Lake Storage stores raw data. You can store raw, unstructured data, such as text files, logs, and images, to be processed quickly at later stages.
+* Azure Data Lake Storage stores raw data. You can store raw, unstructured data, such as text files, logs, and images, to be processed quickly at later stages.
+* Azure Data Lake Storage Gen2 is built on top of Azure Blob storage, combining the features of the previous generation of Azure Data Lake Storage with Azure Blob storage.
+* Azure Data Lake Storage is capable of storing a large amount of data in a cost-effective way. 
+* Azure Data Lake Storage can store large amounts of data, like hundreds of terabytes and more, and you only pay for what you use. 
+* You can reduce the storage cost even more by using features such as storage lifecycle to archive or move data that is not used frequently to cheaper storage tiers.
+* Azure Data Lake Storage enables hierarchical namespace compatible with Hadoop Distributed File System (HDFS). 
+* Azure Data Lake Storage provides a layer to access Azure Blob Storage data as an HDFS storage, including support to organize files in directories and subdirectories, allowing you to quickly examine large quantities of data.
 
 The most appropriate use case for Azure SQL Database is to serve as data storage for online transactional processing (OLTP) workloads.
 
