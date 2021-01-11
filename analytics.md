@@ -69,3 +69,22 @@ A **snowflake** dimension is a set of normalized tables for a single business en
 
 Processing data as it arrives is called streaming. Buffering and processing the data in groups is called batch processing.
 
+An example of **batch processing** is the way that votes are typically counted in elections. The votes are not entered when they are cast, but are all entered together at one time in a batch.
+
+Advantages of batch processing include:
+
+Large volumes of data can be processed at a convenient time.
+It can be scheduled to run at a time when computers or systems might otherwise be idle, such as overnight, or during off-peak hours.
+Disadvantages of batch processing include:
+
+The time delay between ingesting the data and getting the results.
+All of a batch job's input data must be ready before a batch can be processed. This means data must be carefully checked. Problems with data, errors, and program crashes that occur during batch jobs bring the whole process to a halt. The input data must be carefully checked before the job can be run again. Even minor data errors, such as typographical errors in dates, can prevent a batch job from running.
+An example of an effective use of batch processing would be a connection to a mainframe system. Vast amounts of data need to be transferred into a data analysis system and the data is not real-time. An example of ineffective batch-processing would be to transfer small amounts of real-time data, such as a financial stock-ticker.
+
+The most appropriate use case for **Azure Synapse Analytics** is to perform very complex queries and aggregations on a large amount of relational data. You can provision Synapse SQL pools to quickly execute complex queries across multiple computer nodes thanks to the Synapse SQL massively parallel processing (MPP) architecture.
+
+The most appropriate use case for **Power Bl** is to create dashboards and data visualizations from tabular data.
+
+The most appropriate use case for **Azure Data Lake Storage** is to store massive amounts of unstructured data in a hierarchical structure.
+
+The most appropriate use case for Azure SQL Database is to serve as data storage for online transactional processing (OLTP) workloads.
