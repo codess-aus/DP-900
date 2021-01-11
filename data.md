@@ -44,7 +44,8 @@ Data with similar content can be processed from multiple sources by both batch a
 
 With both batch and stream processing, the data that is processed can include large quantities of data.
 
-<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/2-relations.png" alt="Realtional Databases"></p>
+
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/graph.png" alt="Graph Databases"></p>
 <p align="center"></p>
 
 The main characteristics of a **Relational Database** are:
@@ -55,7 +56,23 @@ The main characteristics of a **Relational Database** are:
 
 * A table can contain any number of rows.
 
-* A primary key uniquely identifies each row in a table. No two rows can share the same primary key.
+* A primary key uniquely identifies each row in a table. No two rows can share the same primary key. 
+* The primary key is a unique value assigned to a row. 
+* Even if all of the other columnar information is the same two rows, the primary key value makes each row unique.
 
 * A foreign key references rows in another, related table. For each value in the foreign key column, there should be a row with the same value in the corresponding primary key column in the other table.
+* When setting up relationships between tables through the use of foreign keys, each foreign key value must have a corresponding value in a primary key.
+
+**Normalization** is the process that is used to split an entity into multiple tables. This helps to minimize data duplication through the use of related tables. For example, an online order might need to include customer information and information about the items ordered. Rather than putting all of this information in the order you can have foreign keys pointing to the detail customer and detail item information in other tables.
+
+Relational databases are commonly used in ecommerce systems, but one of the major use cases for using relational databases is Online Transaction Processing (OLTP). 
+
+**OLTP applications** are focused on transaction-oriented tasks that process a very large number of transactions per minute. Relational databases are well suited for OLTP applications because they naturally support insert, update, and delete operations. A relational database can often be tuned to make these operations fast. Also, the nature of SQL makes it easy for users to perform ad-hoc queries over data.
+
+Examples of OLTP applications that use relational databases are:
+
+* Banking solutions
+* Online retail applications
+* Flight reservation systems
+* Many online purchasing applications.
 
