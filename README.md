@@ -95,6 +95,8 @@ Describe data ingestion and processing on Azure
 <p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/big-data-logical.svg" alt="Big Data Architecture"></p>
 <p align="center"></p>
 
+[My Analytics Workload Notes](https://github.com/msandfor/DP-900/blob/main/data.md)
+
 | Reference | Objective | Item |
 |-----|-----|-----|
 | [Describe the difference between batch and streaming data](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/4-describe-difference) | types of core data workloads | describe the difference between batch and streaming data |
