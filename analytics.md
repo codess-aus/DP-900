@@ -22,10 +22,18 @@ Describe data ingestion and processing on Azure
 
 
 
-Two common use cases for **data warehousing** are:
+
+Two common use cases for **Data Warehousing** are:
 * You want to generate reports from historical data without impacting transactional processing.
 * You want to provide a platform for data mining.
 
 Data warehousing lets you consolidate data from multiple sources for analysis and reporting. Data stores are optimized for read operations with few, if any, writes performed on the data. There are typically no locking requirements in a data warehouse.
+
+**OLTP** systems are used to record day-to-day business activities and interactions as they occur. This includes activities such as orders taken, services performed, and payments received or made. 
+* In an OLTP system, data is highly normalized with the schema strongly enforced on write. 
+* OLTP systems are usually structured around a relational data store supporting transactional applications. 
+* An OLTP workload has heavy write requirements with minimal (in comparison) read requirements. 
+* In an OLTP environment, changes made are rolled back automatically if a transaction is not completed so that no transaction is left in a partially completed state. This is known as atomicity and is a requirement for OLTP.
+
 
 
