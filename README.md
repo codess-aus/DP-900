@@ -260,6 +260,12 @@ Describe data ingestion and processing on Azure
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
+
+
+
+## Describe an analytics workload on Azure (25-30%)
+| Course | Length | Notes |
+|-----|-----|----------|
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
