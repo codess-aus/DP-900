@@ -42,6 +42,9 @@ OLTP is used for transactional workloads, such as:
 * Performing e-commerce transactions
 * Tracking inventory management systems
 
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/olap-data-pipeline.png" alt="OLAP"></p>
+<p align="center"></p>
+
 **OLAP**
 An application to perform data mining on historic data collected from multiple relational and non-relational sources is an example of an OLAP workload.
 * OLAP applications often manipulate data based on complex queries. Data mining queries are complex multidimensional queries that are designed to discover insights from the data that are not immediately apparent.
