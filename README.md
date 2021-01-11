@@ -264,7 +264,9 @@ Describe data ingestion and processing on Azure
 
 
 ## Describe an analytics workload on Azure (25-30%)
+
 [My Analytics Workload Notes](https://github.com/msandfor/DP-900/blob/main/analytics.md)
+
 | Course | Length | Notes |
 |-----|-----|----------|
 | []() |  |  |
