@@ -45,4 +45,5 @@ An application to perform data mining on historic data collected from multiple r
 * OLAP applications often manipulate data based on complex queries. Data mining queries are complex multidimensional queries that are designed to discover insights from the data that are not immediately apparent.
 * An application to provide loosely normalized data to support report generation is an example of an OLAP workload. Companies will often maintain live data for transactional processing and a separate copy of historic data for analysis and report generation. This prevents analytic processing from interfering with the performance during transactional processing.
  
-
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/star-schema-example1.png" alt="Star Schema"></p>
+<p align="center"></p>
