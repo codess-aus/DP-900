@@ -44,7 +44,7 @@ Data with similar content can be processed from multiple sources by both batch a
 
 With both batch and stream processing, the data that is processed can include large quantities of data.
 
-<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/big-data-logical.svg" alt="Realtional Databases"></p>
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/2-relations.png" alt="Realtional Databases"></p>
 <p align="center"></p>
 
 The main characteristics of a **Relational Database** are:
