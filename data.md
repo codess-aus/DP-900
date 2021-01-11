@@ -44,10 +44,6 @@ Data with similar content can be processed from multiple sources by both batch a
 
 With both batch and stream processing, the data that is processed can include large quantities of data.
 
-
-<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/graph.png" alt="Graph Databases"></p>
-<p align="center"></p>
-
 The main characteristics of a **Relational Database** are:
 
 * All data is tabular. Entities are modeled as tables, each instance of an entity is a row in the table, and each property is defined as a column.
@@ -55,6 +51,24 @@ The main characteristics of a **Relational Database** are:
 * All rows in the same table have the same set of columns.
 
 * A table can contain any number of rows.
+
+Examples:
+* Inventory management
+* Order management
+* Reporting database
+* Accounting
+
+* Records are frequently created and updated.
+* Multiple operations have to be completed in a single transaction.
+* Relationships are enforced using database constraints.
+* Indexes are used to optimize query performance.
+* Data is highly normalized.
+* Database schemas are required and enforced.
+* Many-to-many relationships between data entities in the database.
+* Constraints are defined in the schema and imposed on any data in the database.
+* Data requires high integrity. Indexes and relationships need to be maintained accurately.
+* Data requires strong consistency. Transactions operate in a way that ensures all data are 100% consistent for all users and processes.
+* Size of individual data entries is small to medium-sized.
 
 * A primary key uniquely identifies each row in a table. No two rows can share the same primary key. 
 * The primary key is a unique value assigned to a row. 
@@ -76,3 +90,15 @@ Examples of OLTP applications that use relational databases are:
 * Flight reservation systems
 * Many online purchasing applications.
 
+**ETL** stands for *Extract, Transform, and Load*. The raw data is retrieved and transformed before being saved. The extract, transform, and load steps can be performed as a continuous pipeline of operations. It is suitable for systems that only require simple models, with little dependency between items. For example, this type of process is often used for basic data cleaning tasks, deduplicating data, and reformatting the contents of individual fields.
+
+**ELT** is an abbreviation of *Extract, Load, and Transform*. The process differs from ETL in that the data is stored before being transformed. The data processing engine can take an iterative approach, retrieving and processing the data from storage, before writing the transformed data and models back to storage. ELT is more suitable for constructing complex models that depend on multiple items in the database, often using periodic batch processing.
+
+**Azure Data Factory**: A cloud-based data integration service that allows you to create data-driven workflows for orchestrating data movement and transforming data at scale. 
+
+Using Azure Data Factory, you can create and schedule data-driven workflows (called pipelines) that can ingest data from disparate data stores. 
+
+You can build complex ETL processes that transform data visually with data flows, or by using compute services such as Azure HDInsight Hadoop, Azure Databricks, and Azure SQL Database.
+
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/2-etl-vs-elt.png" alt="ETL v ELT"></p>
+<p align="center"></p>
