@@ -269,8 +269,8 @@ Describe data ingestion and processing on Azure
 
 | Course | Length | Notes |
 |-----|-----|----------|
-| []() |  |  |
-| []() |  |  |
+| [Online analytical processing (OLAP)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-analytical-processing) |  |  |
+| [Online transaction processing (OLTP)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing) |  |  |
 | []() |  |  |
 | []() |  |  |
 | []() |  |  |
