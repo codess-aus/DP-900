@@ -34,6 +34,15 @@ Data warehousing lets you consolidate data from multiple sources for analysis an
 * OLTP systems are usually structured around a relational data store supporting transactional applications. 
 * An OLTP workload has heavy write requirements with minimal (in comparison) read requirements. 
 * In an OLTP environment, changes made are rolled back automatically if a transaction is not completed so that no transaction is left in a partially completed state. This is known as atomicity and is a requirement for OLTP.
+* An application to process hundreds of user purchases per minute, including updates to inventory on hand, is an example of an OLTP workload. 
+* OLTP applications are optimized for write operations and entering and updating data across multiple, related tables. Partial changes made to data are rolled back automatically if a transaction is not completed, so that no transaction is left in a partially completed state.
+* An application to support warehouse sales and shipping for physical warehouses and multiple international locations is an example of an OLTP application. 
+* OLTP transactions can be distributed geographically and supported by one or more relational database. This scenario requires a solution that supports consistent and reliable data writes. 
 
 
+**OLAP**
+An application to perform data mining on historic data collected from multiple relational and non-relational sources is an example of an OLAP workload.
+* OLAP applications often manipulate data based on complex queries. Data mining queries are complex multidimensional queries that are designed to discover insights from the data that are not immediately apparent.
+* An application to provide loosely normalized data to support report generation is an example of an OLAP workload. Companies will often maintain live data for transactional processing and a separate copy of historic data for analysis and report generation. This prevents analytic processing from interfering with the performance during transactional processing.
+ 
 
