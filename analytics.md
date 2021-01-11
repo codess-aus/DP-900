@@ -81,11 +81,17 @@ The time delay between ingesting the data and getting the results.
 All of a batch job's input data must be ready before a batch can be processed. This means data must be carefully checked. Problems with data, errors, and program crashes that occur during batch jobs bring the whole process to a halt. The input data must be carefully checked before the job can be run again. Even minor data errors, such as typographical errors in dates, can prevent a batch job from running.
 An example of an effective use of batch processing would be a connection to a mainframe system. Vast amounts of data need to be transferred into a data analysis system and the data is not real-time. An example of ineffective batch-processing would be to transfer small amounts of real-time data, such as a financial stock-ticker.
 
-The most appropriate use case for **Azure Synapse Analytics** is to perform very complex queries and aggregations on a large amount of relational data. You can provision Synapse SQL pools to quickly execute complex queries across multiple computer nodes thanks to the Synapse SQL massively parallel processing (MPP) architecture.
+The most appropriate use case for **Azure Synapse Analytics** is to perform very complex queries and aggregations on a large amount of relational data. 
+* You can provision Synapse SQL pools to quickly execute complex queries across multiple computer nodes thanks to the Synapse SQL massively parallel processing (MPP) architecture. 
+* Azure Synapse Analytics models and serves data. 
+* You can load relational data ingested from Azure Data Factory in Azure Synapse Analytics using Synapse SQL pool, and also read unstructured data stored in Azure Data Lake Storage using Polybase. 
+* Combining both relational and unstructured data, you can perform complex analytics and serve data for later stages.
 
 The most appropriate use case for **Power Bl** is to create dashboards and data visualizations from tabular data.
+Power BI visualizes data. You can build interactive reports and dashboards with Power Bl, allowing business users to analyze this data and deliver insights throughout your organization.
 
 The most appropriate use case for **Azure Data Lake Storage** is to store massive amounts of unstructured data in a hierarchical structure.
+Azure Data Lake Storage stores raw data. You can store raw, unstructured data, such as text files, logs, and images, to be processed quickly at later stages.
 
 The most appropriate use case for Azure SQL Database is to serve as data storage for online transactional processing (OLTP) workloads.
 
@@ -97,6 +103,7 @@ The most appropriate use case for Azure SQL Database is to serve as data storage
 * Azure Databricks provides a workspace for collaboration between data scientists, data engineers, and business analysts.
 * You can run notebooks in R, Python, Scala, or SQL, and interact with the data very quickly.
 
+**Azure Data Factory** ingests data from the source. You can ingest data from both relational data and non-structured data from multiple sources with Azure Data Factory.
 
 
 **Azure Analysis Services** is a service used to build multidimensional or tabular models used by online analytical processing (OLAP) queries. You can combine data from multiple sources, like Azure Synapse Analytics, Azure Data Lake Store, Azure Cosmos DB, and others to build the tabular models.
