@@ -65,20 +65,28 @@ A **key/value data store**:
 * Each row can have a different number of columns.
 * In Azure Table store, data is organized based on a partition key and a row key.
 * The partition key identifies the partition in which the data is stored, and the row uniquely identifies the row within the partition.
+* You would use a table data store for denormalized data that is stored in a row/column structure with a variable number of columns per row. 
+* Table storage can be used for unstructured data, semi-structured data, or a mix of data types. 
+* This type of data is supported through Azure Table storage or an Azure Cosmos DB database.
 
 **A Graph Data Store**: 
 * A graph data store is designed to support extensive, complex relationships between entities. This helps to make it easier to perform complex relation analysis.
 * Made up of entities and relationships that are referred to as nodes and edges.
 * You can have multiple relationships between entities, including hierarchical relationships.
-* A graph data store is designed to support extensive, complex relationships between entities.
+* A graph data store is designed to support extensive, complex relationships between entities. This helps to make it easier to perform complex relation analysis.
 
-**A Document Store**: 
+
+**A Document Store**:
 * A document store supports semi-structured documents.
 * Each document is identified as a single key, and the data schema is defined internally in each document named fields and values.
 * The schema and content can vary between documents.
 * Each document typically contains the data for a single entity.
 * Relationships are not defined between documents.
-
-You should not use a column-family (columnar) data store. 
+* Semi-structured data with each entity providing its own field definitions is a description of document-type data, and therefore a document store is your best choice. 
+* Documents are written and retrieved as complete documents. The embedded field definitions make it possible to query documents in order to retrieve field values. 
+* You would typically use an Azure Cosmos DB storage solution.
 
 **An object store** is used to store unstructured data, such as audio or video files, and it does not provide for relationship analysis.
+* For large audio and video files that are used as the source for streaming content, you should choose an object data store. 
+* Files of this type are unstructured, non-relational data. The typical storage solution for this type of file is an object store, such as Azure Blob storage.
+
