@@ -89,4 +89,6 @@ A **key/value data store**:
 **An object store** is used to store unstructured data, such as audio or video files, and it does not provide for relationship analysis.
 * For large audio and video files that are used as the source for streaming content, you should choose an object data store. 
 * Files of this type are unstructured, non-relational data. The typical storage solution for this type of file is an object store, such as Azure Blob storage.
+* Digitally signed scanned documents.
+* Large binary objects, such as images, media files, and digitally signed scanned documents.
 
