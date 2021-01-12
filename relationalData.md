@@ -54,13 +54,31 @@ A **key/value data store**:
 
 **A column-family (columnar) data store**: 
 * A column-family data store is similar to a relational data store in that data is organized as rows and columns, but the columns are divided into column families that can store multiple values in a single column.
-* A row does not necessarily have a value in each column family. Columns within a column family are physically stored in the same file.
+* A row does not necessarily have a value in each column family. 
+* Columns within a column family are physically stored in the same file.
+* A column-family data store is similar to a relational data store in that data is organized as rows and columns, but the columns are divided into column families that can store multiple values in a single column. 
+* Columns within a column family are physically stored in the same file.
+* Data is denormalized and relationships are not defined between entities.
 
 **A Table Data Store**: 
 * A table data store uses a row and column data format with the data somewhat normalized but the same schema is not enforced across all rows.
 * Each row can have a different number of columns.
 * In Azure Table store, data is organized based on a partition key and a row key.
 * The partition key identifies the partition in which the data is stored, and the row uniquely identifies the row within the partition.
-* You should not use a graph data store. A graph data store is designed to support extensive, complex relationships between entities. * This helps to make it easier to perform complex relation analysis.
 
+**A Graph Data Store**: 
+* A graph data store is designed to support extensive, complex relationships between entities. This helps to make it easier to perform complex relation analysis.
+* Made up of entities and relationships that are referred to as nodes and edges.
+* You can have multiple relationships between entities, including hierarchical relationships.
+* A graph data store is designed to support extensive, complex relationships between entities.
 
+**A Document Store**: 
+* A document store supports semi-structured documents.
+* Each document is identified as a single key, and the data schema is defined internally in each document named fields and values.
+* The schema and content can vary between documents.
+* Each document typically contains the data for a single entity.
+* Relationships are not defined between documents.
+
+You should not use a column-family (columnar) data store. 
+
+**An object store** is used to store unstructured data, such as audio or video files, and it does not provide for relationship analysis.
