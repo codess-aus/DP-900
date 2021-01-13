@@ -32,3 +32,24 @@ This allows for easy support of denormalized data and variations between entitie
 Documents in a document database do not support relationships enforced between documents. 
 
 Document databases do not provide a way to establish relationships between documents.
+
+A **key/value** data store functions essentially as a large hash table and is optimized for fast data writes. 
+
+Each data row is referenced by a single key value. The only operations
+supported are simple query, insert, and delete operations. 
+
+Data updates require the application to rewrite the data for the entire value. Queries can be run by a key or a range of keys.
+
+A **column-family** data store is similar to a relational data store in that data is organized as rows and columns, but the columns are divided into column families that can store multiple values in a single column. A row does not necessarily have a value in each column family. 
+
+Columns within a column family are physically stored in the same file.
+
+A **table** data Store uses a row and column data format with the data
+somewhat normalized but the same schema is not enforced across all rows. 
+
+Each row can have a different number of columns. 
+
+In Azure Table store, data is organized based on a partition key and a row key. The partition key identifies the partition in which the data is stored, and the row uniquely identifies the row within the partition.
+
+A **graph** data store is designed to support extensive, complex 
+relationships between entities. This helps to make it easier to perform complex relation analysis.
