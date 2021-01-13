@@ -44,6 +44,8 @@ Data updates require the application to rewrite the data for the entire value. Q
 
 You should use a key-value non-relational data store to maintain user preferences for your company's application. Key-value stores are highly optimized for simple searches like user preferences. A Key-value store associates each data value with a key which can be used to access the data.
 
+Azure File storage is not the recommended storage solution for key/value storage implementation. Microsoft recommends Azure Cosmos DB Core (SQL) API for new key/value requirements. Key/value storage is also supported by Azure Table storage and Cosmos DB Table API.
+
 A **column-family** data store is similar to a relational data store in that data is organized as rows and columns, but the columns are divided into column families that can store multiple values in a single column. A row does not necessarily have a value in each column family. 
 
 Columns within a column family are physically stored in the same file.
@@ -97,3 +99,24 @@ When moving application data to the cloud that uses semi-structured documents to
 documents.
 
 You should use the Cassandra API when moving column-family format data to the cloud to support an existing application. Microsoft suggests limiting the use of the **Cassandra API to supporting existing data**, such as when **moving data to the cloud**. The Cassandra API is specifically designed to support **column-family data**.
+
+Azure File storage supports direct mounting by Windows, macOS, and Linux. This includes support for concurrent access from the cloud and on-premises. Azure File storage can be used to supplement or replace on-premises file server shares.
+
+Azure File storage does not allow you to select the underlying hardware and operating system. Azure File storage is implemented as a serverless file service in which you have neither direct access to, or administrative responsibilities for, the underlying architecture. The one infrastructure choice you can make is between hard disk (ADD) standard file shares and solid-state disk (SSD) premium file shares.
+
+Azure File storage does not support redundancy across multiple regions by default. Standard file shares support locally-redundant storage (CRS) by default with options for zone redundant storage (ZRS), geo-
+redundant storage (CRS), and geo-zone-redundant storage (GZRS). 
+
+Replication across multiple regions is supported as an option, but not as a default setting. The large file share feature and premium file shares support LRS and ZRS only.
+
+**Cosmos DB Table API** supports multi-master replication across multiple regions. This means that you can set it up to let any region accept writes, Global distribution is a turnkey feature of Cosmos DB Table API. Table storage is limited to one primary image that can accept writes and can have one read-only replica in a different region.
+
+Cosmos DB Table API supports manual and automatic failovers. Failure can be initiated from any redundant region and at any time.
+
+Cosmos DB Table API automatically creates secondary indexes without any index management requirements.
+
+**Azure Table API** does not let you initiate failover.
+
+Each row in a table can have a different number of columns in both Azure Cosmos DB and Azure Table storage. This is a defining feature of Table storage.
+
+Data is organized and distributed by partition keys and row keys. This is the only indexing on Azure Table storage. 
