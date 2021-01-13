@@ -72,12 +72,28 @@ Document databases and graph databases are examples of non-relational data store
 
 The Azure database for MariaDg and SQL databases are examples relational databases. Relational databases store information in the form of tables, which you can connect through relationships. Relational databases are used for highly structured data.
 
-Azure Blob is the only Azure storage option that supports access tiers. The default is the Hot tier, which is designed for frequently accessed data. The Cool tier is optimized for data that will be stored for at least 30 days. The Cool tier has lower storage cost than the Hot tier but higher costs for early access. The Archive tier is designed for data that is rarely accessed and will remain in storage for at least 180 days. Access to Archive tier data requires the data to be rehydrated to a Hot or Cool tier. This can mean a latency of several hours. Access tier support requires Data Lake Storage Gen2.
+**Azure Blob** is the only Azure storage option that supports access tiers. The default is the Hot tier, which is designed for frequently accessed data. The Cool tier is optimized for data that will be stored for at least 30 days. The Cool tier has lower storage cost than the Hot tier but higher costs for early access. The Archive tier is designed for data that is rarely accessed and will remain in storage for at least 180 days. Access to Archive tier data requires the data to be rehydrated to a Hot or Cool tier. This can mean a latency of several hours. Access tier support requires Data Lake Storage Gen2.
 
 Azure Blob also supports two performance tiers. The Standard performance tier provides for high performance using hard disk-based storage media. The Premium performance provides greater throughput than the Standard tier and uses solid state drive (SSD) media. The Standard and Premium tiers are also supported for other storage options including Azure File storage and Azure SQL Database.
 
-Azure Table and Azure File do not support access tiers. Access tiers is a feature supported through Cosmos DB. Azure Table and Azure File are distinct storage types and are not implemented through Cosmos DB APIs. 
+Azure Table and Azure File do not support access tiers. Access tiers is a feature supported through Cosmos DB. Azure Table and Azure File are distinct storage types and are not implemented through Cosmos DB APIs.
 
 Table storage is used for storing structured, non-relational data.
 
-File storage provides file storage with shared access, similar to a file server. 
+File storage provides file storage with shared access, similar to a file server.
+
+You can create a premium Azure File storage account in a FileStorage storage account only. You can create a standard File storage account only in a GPv2 account.
+
+You can configure a premium Azure File storage account for LRS and, in select regions, for ZRS. A standard file storage account supports GRS, but not a premium storage account.
+
+You can use a premium Azure File storage account to replace or supplement traditional on-premises file shares. This is true for both standard and premium storage accounts. This includes scenarios where application data is moved to the cloud but applications continue to run on-premises.
+
+Microsoft recommends that any new data project created from scratch uses the Core (SQL) API. This includes applications with key/value data. This type of application is also supported by the Table API, but 
+the Core (SQL) API is recommended as the best solution because it provides improved indexing and a richer query experience.
+
+When creating a new application that analyzes detailed relationship information for non-relational data you should use the Gremlin API. This is one of the few cases where the Core (SQL) API is not recommended as the best solution. **Graph Database -> Gremlin API**
+
+When moving application data to the cloud that uses semi-structured documents to store data, you should use the Core (SQL) API. The Core (SQL) API gives you the ability to create, query, and update data 
+documents.
+
+You should use the Cassandra API when moving column-family format data to the cloud to support an existing application. Microsoft suggests limiting the use of the **Cassandra API to supporting existing data**, such as when **moving data to the cloud**. The Cassandra API is specifically designed to support **column-family data**.
