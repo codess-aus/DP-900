@@ -246,7 +246,7 @@ Describe data ingestion and processing on Azure
 
 ## Describe how to work with non-relational data on Azure (25-30%)
 [My Non-Relational Data Workload Notes](https://github.com/msandfor/DP-900/blob/main/nonrelational.md)
-| Course | Length | Notes |
+| Reference | Objective | Notes |
 |-----|-----|----------|
 | [Understand data store models](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview) |  |  |
 | [Non-relational data and NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data) |  |  |
@@ -274,7 +274,7 @@ Describe data ingestion and processing on Azure
 
 [My Analytics Workload Notes](https://github.com/msandfor/DP-900/blob/main/analytics.md)
 
-| Course | Length | Notes |
+| Reference | Objective | Notes |
 |-----|-----|----------|
 | [Online analytical processing (OLAP)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-analytical-processing) |  |  |
 | [Online transaction processing (OLTP)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing) |  |  |
