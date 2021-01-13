@@ -158,6 +158,8 @@ Describe data ingestion and processing on Azure
 
 ## Describe how to work with relational data on Azure (25-30%)
 
+[My Relational Data Workload Notes](https://github.com/msandfor/DP-900/blob/main/relationaldata.md)
+
 | Reference | Objective | Item |
 |-----|-----|-----|
 | [Clustered and Nonclustered Indexes Described](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15) |  |  |
@@ -243,6 +245,7 @@ Describe data ingestion and processing on Azure
 
 
 ## Describe how to work with non-relational data on Azure (25-30%)
+[My Non-Relational Data Workload Notes](https://github.com/msandfor/DP-900/blob/main/nonrelational.md)
 | Course | Length | Notes |
 |-----|-----|----------|
 | [Understand data store models](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview) |  |  |
@@ -278,17 +281,9 @@ Describe data ingestion and processing on Azure
 | [Describe the difference between batch and streaming data](https://docs.microsoft.com/en-us/learn/modules/explore-core-data-concepts/4-describe-difference) |  |  |
 | []() |  |  |
 | []() |  |  |
-
-The following two applications are best suited to batch processing: 
-Employee payroll processing and generating payroll checks 
-• Setting inventory stocking levels based on seasonal sales volume 
-Data for batch processing is collected over time, often from different data sources, and it is processed as a 
-dataset that includes a range of rows or all rows in the dataset. Batch processing is designed to handle 
-processing of large datasets. There is typically a long latency between data collection and data processing. 
-The following two applications are best suited to stream processing: 
-• Reporting the number of users and bandwidth user for an online game 
-• Identifying detected manufacturing errors to automatically reject failing parts 
-Stream processing is designed for real-time or near real-time data processing, often as a data load process 
-with minimal processing. Data must be able to stream out as quickly as it streams in for processing. Data is 
-either processed as it is generated or in micro-batches of a very few rows with latency of no more than a 
-few milliseconds. 
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
+| []() |  |  |
