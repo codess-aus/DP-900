@@ -50,6 +50,10 @@ A **column-family** data store is similar to a relational data store in that dat
 
 Columns within a column family are physically stored in the same file.
 
+You should use the Cassandra API to store columnar data. This API is compatible with Apache Cassandra databases, which are column-family databases used to store columnar data consisting of row identifiers and a group of information stored in a column. Each group of information is stored in independent data structures named keyspaces.
+
+You should use the Cassandra API when moving column-family format data to the cloud to support an existing application. Microsoft suggests limiting the use of the **Cassandra API to supporting existing data**, such as when **moving data to the cloud**. The Cassandra API is specifically designed to support **column-family data**.
+
 A **table** data Store uses a row and column data format with the data
 somewhat normalized but the same schema is not enforced across all rows. 
 
@@ -57,10 +61,15 @@ Each row can have a different number of columns.
 
 In Azure Table store, data is organized based on a partition key and a row key. The partition key identifies the partition in which the data is stored, and the row uniquely identifies the row within the partition.
 
+Table storage is used for storing structured, non-relational data.
+
 A **graph** data store is designed to support extensive, complex 
 relationships between entities. This helps to make it easier to perform complex relation analysis. 
 * Document databases and graph databases are examples of non-relational data stores.
 * Graph databases store information in the form of edges and nodes. They are used to represent complex relationships such as social interactivity.
+
+You should use the **Gremlin API** to store **graph data**. This API is compatible with Gremlin, which is a graph database that stores nodes and edges used for complex relationships among entities.
+
 
 You do not need to define a schema on non-relational data. A non-relational database does not require you to configure a schema. It focuses on storing the data as it is rather than manipulating the data in tables and columns like in a relational database.
 
@@ -80,8 +89,6 @@ Azure Blob also supports two performance tiers. The Standard performance tier pr
 
 Azure Table and Azure File do not support access tiers. Access tiers is a feature supported through Cosmos DB. Azure Table and Azure File are distinct storage types and are not implemented through Cosmos DB APIs.
 
-Table storage is used for storing structured, non-relational data.
-
 File storage provides file storage with shared access, similar to a file server.
 
 You can create a premium Azure File storage account in a FileStorage storage account only. You can create a standard File storage account only in a GPv2 account.
@@ -90,15 +97,12 @@ You can configure a premium Azure File storage account for LRS and, in select re
 
 You can use a premium Azure File storage account to replace or supplement traditional on-premises file shares. This is true for both standard and premium storage accounts. This includes scenarios where application data is moved to the cloud but applications continue to run on-premises.
 
-Microsoft recommends that any new data project created from scratch uses the Core (SQL) API. This includes applications with key/value data. This type of application is also supported by the Table API, but 
-the Core (SQL) API is recommended as the best solution because it provides improved indexing and a richer query experience.
+Microsoft recommends that any new data project created from scratch uses the **Core (SQL) API**. This includes applications with **key/value data**. This type of application is also supported by the Table API, but the Core (SQL) API is recommended as the best solution because it provides improved indexing and a richer query experience.
 
 When creating a new application that analyzes detailed relationship information for non-relational data you should use the Gremlin API. This is one of the few cases where the Core (SQL) API is not recommended as the best solution. **Graph Database -> Gremlin API**
 
 When moving application data to the cloud that uses semi-structured documents to store data, you should use the Core (SQL) API. The Core (SQL) API gives you the ability to create, query, and update data 
 documents.
-
-You should use the Cassandra API when moving column-family format data to the cloud to support an existing application. Microsoft suggests limiting the use of the **Cassandra API to supporting existing data**, such as when **moving data to the cloud**. The Cassandra API is specifically designed to support **column-family data**.
 
 Azure File storage supports direct mounting by Windows, macOS, and Linux. This includes support for concurrent access from the cloud and on-premises. Azure File storage can be used to supplement or replace on-premises file server shares.
 
@@ -115,8 +119,20 @@ Cosmos DB Table API supports manual and automatic failovers. Failure can be init
 
 Cosmos DB Table API automatically creates secondary indexes without any index management requirements.
 
+An Azure Cosmos account is topmost in the resource hierarchy. You must have this before you can create an Azure Cosmos DB database instance. You can then create API-specific containers, such as tables, collections, or graphs. 
+
+You create items, the entities for which you are storing data, inside a container. Examples include documents, nodes, edges, or rows.
+
+Azure Cosmos Account -> Database -> Container -> Item
+
 **Azure Table API** does not let you initiate failover.
 
 Each row in a table can have a different number of columns in both Azure Cosmos DB and Azure Table storage. This is a defining feature of Table storage.
 
-Data is organized and distributed by partition keys and row keys. This is the only indexing on Azure Table storage. 
+Data is organized and distributed by partition keys and row keys. This is the only indexing on Azure Table storage.
+
+You can use the Table API to store key/value data organized as rows and columns, forming a table in which the number of columns may vary according to each row. This API is compatible with Azure Table storage.
+
+You should use the **MongoDB API** to store JSON documents. This API is compatible with MongoDB, which is a document database that stores semi-structured data in JSON format. A document usually contains all data from an entity, and each document can have different fields Of data.
+
+
