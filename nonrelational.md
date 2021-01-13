@@ -53,3 +53,11 @@ In Azure Table store, data is organized based on a partition key and a row key. 
 
 A **graph** data store is designed to support extensive, complex 
 relationships between entities. This helps to make it easier to perform complex relation analysis.
+
+You do not need to define a schema on non-relational data. A non-relational database does not require you to configure a schema. It focuses on storing the data as it is rather than manipulating the data in tables and columns like in a relational database.
+
+You can use non-relational data to store data that has a highly variable structure. 
+
+You can store entities with different structures in a non-relational data store, for example, a customer in an e-commerce platform could have multiple contact numbers or addresses, while another customer could have only one contact number. Non-relational data provides you this flexibility.
+
+You can use indexing with non-relational data in a similar way to an index in a relational database. Some non-relational databases, such as Cosmos DB, support indexing in the fields of a stored entity, in a similar way a relational database does. 
