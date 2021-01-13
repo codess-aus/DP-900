@@ -35,16 +35,21 @@ Document databases do not provide a way to establish relationships between docum
 
 Document databases store data in JSON or XML format and do not require all documents to have the same structure.
 
-A **key/value** data store functions essentially as a large hash table and is optimized for fast data writes. 
+Azure Cosmos DB **SQL API**. It is used to implement **Document database**. Document database stores data in JSON or XML format. Document store does not require all documents to have the same structure. Azure Cosmos DB provides Core (SQL) API for Document database implementation.
+
+A **key/value** data store functions essentially as a large hash table and is optimized for fast data writes.
 
 Each data row is referenced by a single key value. The only operations
-supported are simple query, insert, and delete operations. 
+supported are simple query, insert, and delete operations.
 
 Data updates require the application to rewrite the data for the entire value. Queries can be run by a key or a range of keys.
 
 You should use a key-value non-relational data store to maintain user preferences for your company's application. Key-value stores are highly optimized for simple searches like user preferences. A Key-value store associates each data value with a key which can be used to access the data.
 
-Azure File storage is not the recommended storage solution for key/value storage implementation. Microsoft recommends Azure Cosmos DB Core (SQL) API for new key/value requirements. Key/value storage is also supported by Azure Table storage and Cosmos DB Table API.
+Microsoft recommends Azure Cosmos DB Core (SQL) API for new key/value requirements. Key/value storage is also supported by Azure Table storage and Cosmos DB Table API.
+
+You should use the Azure Cosmos DB Table API to implement a Key-value store. Key-value stores are highly optimized for simple lookups scenario. Azure Cosmos DB provides Table API for key-value store
+implementation.
 
 A **column-family** data store is similar to a relational data store in that data is organized as rows and columns, but the columns are divided into column families that can store multiple values in a single column. A row does not necessarily have a value in each column family. 
 
@@ -143,6 +148,18 @@ You create items, the entities for which you are storing data, inside a containe
 Azure Cosmos Account -> Database -> Container -> Item
 
 Cosmos DB Table API supports multi-region writes and read replicas. You can configure read replicas in a Cosmos DB account to multiple regions, including support to create multi-region writes.
+
+The type of account to create is specified when you create an Azure Cosmos DB by selecting the API type.
+
+You can configure an account without multiple databases of the same type, but you must create a separate account for each type of database you want to support.
+
+Azure Cosmos DB account serverless mode is not supported for all Cosmos DB APIs. It is supported for Cosmos DB Core (SQL) API only. 
+
+You cannot apply the free tier discount when creating a serverless mode account. In addition, the serverless mode does not support multi-master writes or geo-redundancy.
+
+You can have up to one free tier Azure Cosmos DB account per Azure subscription. You can request a free tier account for any account type.
+
+**Azure Cosmos explorer(()) lets you set up temporary or permanent read or read-write access to your database. You can also use Azure Cosmos explorer to run queries, store procedures and triggers, and view their results. You can share query results with other users who do not have access to Azure portal or subscription.
 
 You should use the **MongoDB API** to store JSON documents. This API is compatible with MongoDB, which is a document database that stores semi-structured data in JSON format. A document usually contains all data from an entity, and each document can have different fields Of data.
 
