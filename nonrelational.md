@@ -63,8 +63,25 @@ In Azure Table store, data is organized based on a partition key and a row key. 
 
 Table storage is used for storing structured, non-relational data.
 
-A **graph** data store is designed to support extensive, complex 
-relationships between entities. This helps to make it easier to perform complex relation analysis. 
+The two elements that compose a key in Azure Table storage are the partition key and the row key. Data stored in Azure Table storage is referred to as rows and columns, and it forms a table in which the columns may vary according to each row. The rows in a table are split into partitions, and related rows are grouped based on a common property. This common property is called a partition key. The partition key identifies the partition inside the Azure Table storage and a row key is used to uniquely identify each row in a given partition.
+
+In Azure Table storage, a group of columns is not stored in different partitions. The rows in a table are split into partitions, which group together related rows based on a common property. This common property is called the partition key.
+
+The number of columns in each row may not be exactly the same. Azure Table lets you store semi- structured data. Unlike in a relational table, each row can have different columns of data.
+
+In Azure Table storage, data is stored as rows and columns, forming a table in which the number of columns may vary according to each row.
+
+Azure Table storage supports multi-region reads replicas only. You can configure read replicas in Azure Table storage by configuring the storage account to use Read-access geo-redundant storage (RA-GRS) redundancy. This enables a readable replica in a secondary region. However, you cannot write data in the secondary region.
+
+**Azure Table API** does not let you initiate failover.
+
+Each row in a table can have a different number of columns in both Azure Cosmos DB and Azure Table storage. This is a defining feature of Table storage.
+
+Data is organized and distributed by partition keys and row keys. This is the only indexing on Azure Table storage.
+
+You can use the Table API to store key/value data organized as rows and columns, forming a table in which the number of columns may vary according to each row. This API is compatible with Azure Table storage.
+
+A **graph** data store is designed to support extensive, complex relationships between entities. This helps to make it easier to perform complex relation analysis. 
 * Document databases and graph databases are examples of non-relational data stores.
 * Graph databases store information in the form of edges and nodes. They are used to represent complex relationships such as social interactivity.
 
@@ -125,13 +142,7 @@ You create items, the entities for which you are storing data, inside a containe
 
 Azure Cosmos Account -> Database -> Container -> Item
 
-**Azure Table API** does not let you initiate failover.
-
-Each row in a table can have a different number of columns in both Azure Cosmos DB and Azure Table storage. This is a defining feature of Table storage.
-
-Data is organized and distributed by partition keys and row keys. This is the only indexing on Azure Table storage.
-
-You can use the Table API to store key/value data organized as rows and columns, forming a table in which the number of columns may vary according to each row. This API is compatible with Azure Table storage.
+Cosmos DB Table API supports multi-region writes and read replicas. You can configure read replicas in a Cosmos DB account to multiple regions, including support to create multi-region writes.
 
 You should use the **MongoDB API** to store JSON documents. This API is compatible with MongoDB, which is a document database that stores semi-structured data in JSON format. A document usually contains all data from an entity, and each document can have different fields Of data.
 
