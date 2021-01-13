@@ -21,7 +21,8 @@ Describe data ingestion and processing on Azure
 * describe the workflow in Power BI
 
 
-
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/DW.png" alt="Data Warehouse"></p>
+<p align="center"></p>
 
 Two common use cases for **Data Warehousing** are:
 * You want to generate reports from historical data without impacting transactional processing.
