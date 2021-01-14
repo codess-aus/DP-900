@@ -121,4 +121,11 @@ While you can read data from Azure Data Lake Storage parquet files, you cannot u
 
 Azure Databricks and Azure HDlnsight: These services are capable of reading data from Azure Data Lake Storage by using notebooks.
 
+Azure Data Factory can load data from Azure Blob Storage, Azure Data Lake Storage, Azure Cosmos DB, and Azure Synapse Analytics. You can even load data from services outside Azure, such as Amazon 53.
+
+Azure Data Factory can export data to Azure Data Lake Storage, Azure Synapse Analytics, and many other destinations, such as Azure SQL Database, Azure Blob Storage, and Azure Cosmos DB.
+
+Azure Data Factory can run SQL Server Integration Service (SSIS) packages using the Execute SSIS Package activity, To use the Execute SSIS Package activity, you need to configure the Azure-SSIS
+integration runtime (IR).
+
 
