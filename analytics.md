@@ -115,3 +115,10 @@ The most appropriate use case for Azure SQL Database is to serve as data storage
 
 **Azure Analysis Services** is a service used to build multidimensional or tabular models used by online analytical processing (OLAP) queries. You can combine data from multiple sources, like Azure Synapse Analytics, Azure Data Lake Store, Azure Cosmos DB, and others to build the tabular models.
 
+You should use PolyBase. PolyBase is a feature present in SQL Server and Azure Synapse Analytics capable of reading data from Hadoop Distributed File System (HDFS)•compatible storage by using T-SQL queries. You can create an external table with an external data source to map the parquet format stored in Azure Data Lake Storage.You can query this external table with T-SQL and join it to other tables.
+
+While you can read data from Azure Data Lake Storage parquet files, you cannot use T-SQL queries to read this data in Azure Data Factory.
+
+Azure Databricks and Azure HDlnsight: These services are capable of reading data from Azure Data Lake Storage by using notebooks.
+
+
