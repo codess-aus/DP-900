@@ -19,7 +19,7 @@ Describe query techniques for data using SQL language
 * compare Data Definition Language (DDL) versus Data Manipulation Language (DML)
 * query relational data in Azure SQL Database, Azure Database for PostgreSQL, and Azure Database for MySQL
 
-
+A primary use of **relational** databases is to handle transaction processing.
 
 The SQL language has four basic types of commands.
 
