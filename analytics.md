@@ -222,4 +222,9 @@ Dashboards are a single-page collection of visuals. You can create a dashboard f
 
 Tiles are a single visualization on a report or a dashboard that holds an individual visual. You can arrange or resize tiles while you are designing your reports or dashboards on the canvas.
 
+You can display visualizations from multiple datasets on a dashboard. You can include visualizations from one or more reports, where each report can use a different dataset. If you are designing a report, you can only display visualizations from a single dataset.
 
+You cannot filter and slice the data shown in a dashboard. A dashboard does not support filtering or data slices. You can apply filters in a report tile to filter the data shown in the dashboard. However, you cannot apply filters and slices directily in a dashboard, Also, if the whole report page were pinned as a live tile,
+all filters and slices would appear on the dashboard just as they do on a report page.
+
+You can export the underlying data used to build a tile to an Excel file, You can export the data used to build a given tile nn your dashboard. However, you cannot export dataset tables, fields, and values directly from a dashboard.
