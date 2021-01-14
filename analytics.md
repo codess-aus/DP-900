@@ -136,4 +136,21 @@ The **Power Bl service** is a set of analysis and display tools that lets you cr
 
 **Power Bl Desktop** is used to create interactive reports, typically for publishing in Power Bl Dashboard.
 
+You can include tiles as visualizations based on underlying data and along with standalone tiles, which can include:
+* Text boxes
+* Images
+* Videos
+* Streaming data
+* Web content
+
+The primary difference between these and other types of visualizations is that they do not link you to additional data or information. Tiles with underlying data include:
+* Interactive reports
+* Datasets
+* Dashboards
+* Excel worksheets
+* Server Reporting Services (SSRS)
+This is a partial list of the types of tiles supported.
+
+**Power Bl apps** are used to create visualizations.
+
 
