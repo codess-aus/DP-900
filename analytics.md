@@ -209,3 +209,17 @@ In Power BI, paginated reports are a type of report designed to be printed or sh
 Reports are a collection of visuals from a dataset with one or more pages. A report groups together a set of visualizations created from a single dataset and organizes these visualizations On one or more pages.
 
 Dashboards are a single-page collection of visuals. You can create a dashboard from one or more reports, consolidating the most relevant visuals in a single-page view.
+
+Visualizations are a visual representation of your data, like charts, maps, and other visual components.
+
+Visualizations are also called visuals.
+
+Datasets are a collection of data used to create visualizations. A dataset can combine data from different sources, such as database fields, Excel tables, and many other sources supported by multiple data connectors.
+
+Reports are a collection of visuals from a dataset with one or more pages. A report groups together a set of visualizations created from a single dataset and organizes these visualizations into one or more pages.
+
+Dashboards are a single-page collection of visuals. You can create a dashboard from one or more reports, consolidating the most relevant visuals in a single-page view.
+
+Tiles are a single visualization on a report or a dashboard that holds an individual visual. You can arrange or resize tiles while you are designing your reports or dashboards on the canvas.
+
+
