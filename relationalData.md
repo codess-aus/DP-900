@@ -92,3 +92,5 @@ A **key/value data store**:
 * Digitally signed scanned documents.
 * Large binary objects, such as images, media files, and digitally signed scanned documents.
 
+<p><img align="center" src="https://github.com/msandfor/DP-900/blob/main/assets/5-azure-sql-database-graphic.png" alt="Azure SQL Database"></p>
+<p align="center"></p>
