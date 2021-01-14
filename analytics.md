@@ -198,3 +198,14 @@ Finally, you should view and interact with reports on Power Bl mobile. After a r
 
 Power Bl mobile apps can only be used to view and interact with reports.
 
+You can create reports and dashboards in the Power Bl service. Although you can create basic reports and dashboards in the Power Bl service, it is more common to create reports in Power Bl Desktop for a complete design experience and for access to more data sources.
+
+You can share and distribute reports in the Power BI service. You can create workspaces in the Power BI service to collaborate and share your reports with other team members and your company. 
+
+You should use Power BI Desktop to design data modeling, like creating custom columns and managing model relationships.
+
+In Power BI, paginated reports are a type of report designed to be printed or shared, formatting the information to fit well on a page, even if the data spans multiple pages, These reports are created with a standalone tool named Power Bl Report Builder and are based on the standard report format in SQL Server Reporting Services.
+
+Reports are a collection of visuals from a dataset with one or more pages. A report groups together a set of visualizations created from a single dataset and organizes these visualizations On one or more pages.
+
+Dashboards are a single-page collection of visuals. You can create a dashboard from one or more reports, consolidating the most relevant visuals in a single-page view.
