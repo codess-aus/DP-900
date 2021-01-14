@@ -132,6 +132,19 @@ You use the **Power 81 Report Builder** to author and publish paginated reports.
 
 **Power Bl Dashboard** is a single page on which your visualizations are posted as tiles on the dashboard to display information. A dashboard allows you to show important business metrics at a glance.
 
+* Each report page displayed on a dashboard is based on a single dataset.
+
+* An interactive report can be created from one dataset only. The reports can be created from the same dataset or a different dataset, but each report will be based on one dataset.
+
+* Report pages are pinned to the dashboard from interactive reports.
+
+* A dashboard can include pages pinned from multiple reports.
+
+* Dashboard content is not limited to cloud data only. Content can include cloud and on-premises data. This gives you an easy way to compare data from various sources.
+
+* One dashboard can be identified as your featured dashboard. After you declare a featured dashboard, this is the dashboard that will be displayed initially when you open the Power Bl service. You can change the featured dashboard at any time. 
+
+
 The **Power Bl service** is a set of analysis and display tools that lets you create visuals based on your data. This includes Power Bl Desktop and Power Bl Dashboard.
 
 **Power Bl Desktop** is used to create interactive reports, typically for publishing in Power Bl Dashboard.
@@ -153,4 +166,14 @@ This is a partial list of the types of tiles supported.
 
 **Power Bl apps** are used to create visualizations.
 
+An app is a collection of ready-made visuals pre-arranged on reports and dashboards. Power Bl service includes several apps already defined for you. This includes apps available for various online services.
 
+A report based on a single dataset generated using the Power Bl Desktop as a collection of one or more pages of visuals is an interactive report. **An interactive report** will have one or more pages of visuals. Once the Power is published, the report pages can be used as tiles on a dashboard.
+
+A unique combination of data pulled from various sources and used to create a visualization is referred to as a **dataset**. A dataset can include data from one or more databases, spreadsheets, flat files, and other sources, including both cloud-based and on-premises sources. Each unique combination is considered a different dataset.
+
+**A tile** is a rectangular box that contains a single visual for use with a report or dashboard that supports user interaction. The visual can be custom content, content from a pre-defined app, or standalone tile content.
+
+**A paginated report** is created in Power Bl Report Builder from a report definition that specifies what data to retrieve, where to get it, and how to display it.
+
+**A dashboard** is a single-page canvas to which you can pin tiles containing visualizations.
